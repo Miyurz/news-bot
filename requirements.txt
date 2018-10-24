@@ -1,4 +1,5 @@
 simplejson
+pycurl
 msgpack
 #talkey
 #speake3

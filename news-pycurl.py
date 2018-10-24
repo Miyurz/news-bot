@@ -69,5 +69,5 @@ def parseJson(parsedJson):
                     else:
                         print("{} : {}".format(k, v))
                 #time.sleep(1)
-                        
+                       
 getNews()
