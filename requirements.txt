@@ -1,0 +1,5 @@
+simplejson
+msgpack
+#talkey
+#speake3
+py-espeak-ng
