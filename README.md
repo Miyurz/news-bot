@@ -10,3 +10,9 @@ Requirements:
 To do:
 - Check for best tts engine. Right now using pyspeak
 
+
+- FAQ
+1. pip install pycurl may fail on Mac. Do:
+   - export PYCURL_SSL_LIBRARY=openssl
+   - export LDFLAGS=-L/usr/local/opt/openssl/lib;export CPPFLAGS=-I/usr/local/opt/openssl/include;
+   - pip install pycurl
