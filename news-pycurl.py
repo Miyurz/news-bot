@@ -23,6 +23,8 @@ def getNews():
     '''
     endpoint = 'top-headlines'
     
+    API_KEY = os.environ('apiKey') if "apiKey" in os.environ: else print("error!")
+    
     headers = "X-Api-Key:  29631ea77aa84f768932119e3e7056d6"
     params = "?country=in&category=business&pageSize=99"
     r = pycurl.Curl()

@@ -1,4 +1,5 @@
 simplejson
+certifi
 pycurl
 msgpack
 #talkey
